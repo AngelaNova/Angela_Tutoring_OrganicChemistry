@@ -23,6 +23,7 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import chemistry from "./chemistry.jpg";
 
 export {
   airbnb,
@@ -34,6 +35,7 @@ export {
   logo,
   quotes,
   robot,
+  chemistry,
   send,
   shield,
   star,
