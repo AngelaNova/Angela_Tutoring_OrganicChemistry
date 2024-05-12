@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, clock  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, brain, giftBox, clock  } from "../assets";
 
 export const navLinks = [
   {
@@ -29,14 +29,14 @@ export const features = [
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: brain,
     title: "Customized Lessons",
     content:
       "Receive customized lesson plans designed to address your specific learning needs and goals.",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: giftBox,
     title: "Discounts Available",
     content:
       "Enjoy special discounts on semester-long tutoring packages and group sessions. Contact us for more details!",
