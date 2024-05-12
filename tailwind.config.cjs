@@ -24,4 +24,7 @@ module.exports = {
     },
   },
   plugins: [],
+        animation: {
+          'spin-slow': 'spin 6s linear infinite',
+        }
 };
