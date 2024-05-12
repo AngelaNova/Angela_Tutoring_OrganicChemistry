@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Flexible Scheduling",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Enjoy flexible scheduling options tailored to fit your busy lifestyle.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Customized Lessons",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Receive customized lesson plans designed to address your specific learning needs and goals.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Discounts Available",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Enjoy special discounts on semester-long tutoring packages and group sessions. Contact us for more details!",
   },
 ];
 
