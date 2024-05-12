@@ -14,19 +14,19 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[32px] text-[32px] text-white ss:leading-[100.8px] leading-[75px]">
-            This is <br/>
-            <span className="text-gradient ss:text-[50px]"> Organic Chemistry </span> 
+        <div className="flex flex-row justify-between items-center w-full ">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[32px] text-[42px] text-white ss:leading-[100.8px] leading-[75px] ">
+            This is 
+            <span className="text-gradient ss:text-[42px]"> Organic Chemistry </span> 
             Tutoring.
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
+          <div className="ss:flex hidden mb-[300px] md:mr-4 mr-0">
             <GetStarted />
           </div>
         </div>
 
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Master organic chemistry with personalized tutoring sessions tailored to your needs. Our experts cover everything from reaction mechanisms, stereochemistry to spectroscopy, ensuring your success in the subject and deeper understanding. Learning, not memorizing! 
+        <p className={`${styles.paragraph} max-w-[470px] text-justify mt-[-40px]`}>
+          Master organic chemistry with personalized tutoring sessions tailored to your needs. Our experts cover everything from reaction mechanisms to spectroscopy, ensuring your success in the subject and deeper understanding. Learning, not memorizing! 
         </p>
       </div>
 
@@ -41,7 +41,7 @@ const Hero = () => {
       </div>
 
       <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
+        <GetStarted/>
       </div>
     </section>
   );
