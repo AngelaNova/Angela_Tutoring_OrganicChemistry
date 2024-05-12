@@ -8,8 +8,6 @@ import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
-import shield from "./Shield.svg";
-import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -24,10 +22,14 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import chemistry from "./chemistry.jpg";
-import clock from "./clock_animation.json";
+import clock from "./clock.png";
+import brain from "./brain.png";
+import giftBox from "./gift_box.png";
 
 export {
   clock,
+  brain,
+  giftBox,
   airbnb,
   bill,
   binance,
@@ -39,8 +41,6 @@ export {
   robot,
   chemistry,
   send,
-  shield,
-  star,
   menu,
   close,
   google,
