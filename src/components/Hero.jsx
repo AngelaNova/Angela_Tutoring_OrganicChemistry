@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-[-50px] ">
-          <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
+        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-[-50px]">
+          <img src={discount} alt="discount" className="w-[32px] h-[32px] animate-[spin_6s_linear_infinite]" />
           <p className={`${styles.paragraph} ml-2 `}>
             <span className="text-white">10%</span> Discount For{" "}
             <span className="text-white">1 Month</span> Account
@@ -20,7 +20,7 @@ const Hero = () => {
             <span className="text-gradient ss:text-[42px]"> Organic Chemistry </span> 
             Tutoring.
           </h1>
-          <div className="ss:flex hidden mb-[300px] md:mr-4 mr-0">
+          <div className="ss:flex hidden mb-[300px] md:mr-4  ">
             <GetStarted />
           </div>
         </div>
@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={chemistry} alt="billing" className="w-[95%] h-[78%] rounded-xl relative z-[5] mr-5" />
+        <img src={chemistry} alt="billing" className="w-[95%] h-[78%] rounded-xl relative z-[5] mr-0 ml-[-50px]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
