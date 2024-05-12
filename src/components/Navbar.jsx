@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, menu } from "../assets";
+import { close, menu } from "../../public/assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
