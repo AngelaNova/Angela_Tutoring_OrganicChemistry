@@ -22,13 +22,12 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+      Chemistry Tutoring Excellence
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+        <b>You Learn, We Guide</b> <br/>
+        Achieve success in organic chemistry with our tailored tutoring services. Let us help you master the material and excel in your studies!
+        With personalized tutoring, you can strengthen your understanding, improve your grades, and unlock your full potential in organic chemistry.
       </p>
 
       <Button styles={`mt-10`} />
