@@ -15,18 +15,16 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            This is<br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Organic Chemistry</span>{" "}
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[32px] text-white ss:leading-[100.8px] leading-[75px]">
+            This is
+            <span className="text-gradient"> Organic Chemistry </span> 
+            Tutoring.
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Tutoring.
-        </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Master organic chemistry with personalized tutoring sessions tailored to your needs. Our experts cover everything from reaction mechanisms, stereochemistry to spectroscopy, ensuring your success in the subject and deeper understanding. Learning, not memorizing! 
         </p>
