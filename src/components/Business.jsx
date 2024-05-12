@@ -24,11 +24,11 @@ const Business = () =>  (
       <h2 className={styles.heading2}>
       Chemistry Tutoring Excellence
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <ul className={`${styles.paragraph} max-w-[470px] mt-5 list-disc list-inside text-justify`}>
         <b>You Learn, We Guide</b> <br/>
-        Achieve success in organic chemistry with our tailored tutoring services. Let us help you master the material and excel in your studies!
-        With personalized tutoring, you can strengthen your understanding, improve your grades, and unlock your full potential in organic chemistry.
-      </p>
+        <li>Achieve success in organic chemistry with our tailored tutoring services. Let us help you master the material and excel in your studies!</li>
+        <li>With personalized tutoring, you can strengthen your understanding, improve your grades, and unlock your full potential in organic chemistry.</li>
+      </ul>
 
       <Button styles={`mt-10`} />
     </div>
