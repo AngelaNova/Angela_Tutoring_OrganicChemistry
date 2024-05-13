@@ -25,9 +25,11 @@ import chemistry from "./chemistry.jpg";
 import clock from "./clock.png";
 import brain from "./brain.png";
 import giftBox from "./gift_box.png";
+import McGill from "./McGill.jpg";
 
 export {
   clock,
+  McGill,
   brain,
   giftBox,
   airbnb,
