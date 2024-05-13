@@ -4,7 +4,7 @@ import styles, { layout } from "../style";
 const Billing = () => (
   <section id="License" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={lab} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded ml-[-60px]" />
+      <img src={lab} alt="billing" className="w-[60%] h-[60%] md:w-[70%] md:h-[80%] relative z-[5] rounded md:ml-[-60px]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -22,7 +22,7 @@ const Billing = () => (
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <img src={McGill} alt="McGill University" className="rounded-lg w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer opacity-94" />
+        <img src={McGill} alt="McGill University" className="rounded-lg w-[14%] h-[2%] object-contain mr-5 cursor-pointer opacity-94" />
       </div>
     </div>
   </section>
