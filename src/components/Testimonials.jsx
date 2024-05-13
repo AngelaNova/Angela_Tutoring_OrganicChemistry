@@ -17,7 +17,7 @@ const Testimonials = () => (
       </div>
     </div>
 
-    <div className="snap-mandatory snap-x overflow-auto">
+    <div className="relative w-full flex gap-6 snap-x snap-proximity overflow-x-auto pb-14">
       {feedback.map((card) => (
       <div key={card.id} className={"snap-center shrink-0"}>
         <FeedbackCard {...card} />
