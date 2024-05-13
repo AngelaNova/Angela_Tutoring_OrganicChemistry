@@ -1,5 +1,5 @@
 import airbnb from "./airbnb.png";
-import bill from "./bill.png";
+import lab from "./lab.jpg";
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
@@ -33,7 +33,7 @@ export {
   brain,
   giftBox,
   airbnb,
-  bill,
+  lab,
   binance,
   card,
   coinbase,
