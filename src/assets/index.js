@@ -1,4 +1,3 @@
-import airbnb from "./airbnb.png";
 import lab from "./lab.jpg";
 import binance from "./binance.png";
 import card from "./card.png";
@@ -10,7 +9,6 @@ import send from "./Send.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
-import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.png";
 import facebook from "./facebook.svg";
@@ -18,7 +16,7 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import people01 from "./people01.png";
-import people02 from "./people02.png";
+import people02 from "./people02.jpg";
 import people03 from "./people03.png";
 import chemistry from "./chemistry.jpg";
 import clock from "./clock.png";
@@ -33,7 +31,6 @@ export {
   McGill,
   brain,
   giftBox,
-  airbnb,
   lab,
   binance,
   card,
@@ -46,7 +43,6 @@ export {
   menu,
   close,
   google,
-  apple,
   arrowUp,
   discount,
   facebook,
