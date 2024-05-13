@@ -17,9 +17,9 @@ const Testimonials = () => (
       </div>
     </div>
 
-    <div className="snap-x overflow-y-auto">
+    <div className="snap-mandatory snap-x overflow-auto">
       {feedback.map((card) => (
-      <div key={card.id} className={"snap-center"}>
+      <div key={card.id} className={"snap-center shrink-0"}>
         <FeedbackCard {...card} />
       </div>
       ))}
