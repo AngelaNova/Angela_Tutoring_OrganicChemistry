@@ -29,6 +29,7 @@ import star from "./star.png";
 
 export {
   clock,
+  star,
   McGill,
   brain,
   giftBox,
