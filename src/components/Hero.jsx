@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full ">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[32px] text-[42px] text-white ss:leading-[100.8px] leading-[75px] ">
+          <h1 className="flex-1 font-poppins font-semibold md:text-[32px] lg:text-[42px] text-white ss:leading-[100.8px] leading-[75px] ">
             This is 
             <span className="text-gradient ss:text-[42px]"> Organic Chemistry </span> 
             Tutoring.
