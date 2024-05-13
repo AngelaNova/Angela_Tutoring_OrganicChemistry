@@ -49,10 +49,8 @@ The project follows a modular structure with components organized into directori
 - **Call to Action (CTA):** Encourages users to take action, such as signing up for tutoring sessions.
 - **Footer:** Includes contact information and links to social media platforms.
 
-## Home Page Overview:
-# AN | OrgoChem Tutoring
 
-## Home Page Overview
+# Home Page Overview
 
   The home page of AN OrgoChem Tutoring offers a comprehensive overview of our tutoring services in organic chemistry. Here's what you'll find:
   
