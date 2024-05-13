@@ -10,15 +10,19 @@ const Testimonials = () => (
       <h2 className={styles.heading2}>
         What People are <br className="sm:block hidden" /> saying about us
       </h2>
-      <div className="w-full md:mt-0 mt-6">
+      <div className="w-full md:mt-0 mt-6 ">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
           Unlock the door to academic success with our comprehensive tutoring services tailored to meet your learning needs.
         </p>
       </div>
     </div>
 
-    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
-      {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
+    <div className="snap-x overflow-y-auto">
+      {feedback.map((card) => (
+      <div key={card.id} className={"snap-center"}>
+        <FeedbackCard {...card} />
+      </div>
+      ))}
     </div>
   </section>
 );
