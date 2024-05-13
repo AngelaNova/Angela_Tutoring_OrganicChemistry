@@ -2,7 +2,7 @@ import { lab, McGill } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section id="License" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img src={lab} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded ml-[-60px]" />
 
