@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} max-w-[470px] text-justify `}>
+        <p className={`${styles.paragraph} max-w-[470px] text-justify mt-5`}>
           Master organic chemistry with personalized tutoring sessions tailored to your needs. Our experts cover everything from reaction mechanisms to spectroscopy, ensuring your success in the subject and deeper understanding. Learning, not memorizing! 
         </p>
       </div>
