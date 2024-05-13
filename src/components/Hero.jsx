@@ -1,6 +1,5 @@
 import styles from "../style";
 import { discount, chemistry } from "../assets";
-import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
@@ -15,14 +14,14 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full ">
-          <h1 className="flex-1 font-poppins font-semibold  text-[200%] text-white leading-[75px]  ">
+          <h1 className="flex-1 font-poppins font-semibold  ss:text-[42px] text-[32px] text-white ss:leading-[80px] leading-[75px] ">
             This is 
             <span className="text-gradient"> Organic <br/> Chemistry </span> 
             Tutoring.
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} max-w-[470px] text-justify mt-[-10%]`}>
+        <p className={`${styles.paragraph} max-w-[470px] text-justify `}>
           Master organic chemistry with personalized tutoring sessions tailored to your needs. Our experts cover everything from reaction mechanisms to spectroscopy, ensuring your success in the subject and deeper understanding. Learning, not memorizing! 
         </p>
       </div>
