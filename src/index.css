@@ -154,3 +154,19 @@ width: 90%;
 margin: auto;
 width: 90%;
 } */
+
+.discount_img{
+  height: 2rem;
+  width: 2rem;
+}
+
+.chemistry_img{
+  width: 30%;
+  height: 20%;
+  border-radius: 2%; /* A large value to mimic "rounded" */
+  position: relative;
+  z-index: 5;
+  margin-top: -37.9%;
+  margin-right: 0;
+  margin-left: 55%;
+}
