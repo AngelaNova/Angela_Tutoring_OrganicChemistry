@@ -3,8 +3,8 @@ import { discount, chemistry } from "../assets";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex bmdandsm:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col lg:px-0 sm:px-16 px-6 `}>
+    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="discount_img animate-[spin_6s_linear_infinite]" />
           <p className={`${styles.paragraph} ml-2 `}>
@@ -13,8 +13,8 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-row justify-between items-center w-full ">
-          <h1 className="flex-1 font-poppins font-semibold  ss:text-[42px] text-[32px] text-white ss:leading-[80px] leading-[75px] ">
+        <div className="flex flex-row justify-between items-center w-full">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[42px] text-[22px] text-white ss:leading-[100.8px] leading-[75px]">
             This is 
             <span className="text-gradient"> Organic <br/> Chemistry </span> 
             Tutoring.
