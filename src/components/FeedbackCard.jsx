@@ -1,7 +1,7 @@
 import { star } from "../assets";
 
 const FeedbackCard = ({ content, name, title, img }) => (
-  <div className="flex justify-between flex-col text-justify py-20vh px-12vh p-6  rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card animate-pulse hover:animate-none">
+  <div className="flex justify-between flex-col text-justify py-20vh box-border h-[25rem] w-[20rem] px-12vh p-6  rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card animate-pulse hover:animate-none">
     <img src={star} alt="star" className="h-[55px] object-contain mb-[-20px]" />
     <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10">
       {content}
