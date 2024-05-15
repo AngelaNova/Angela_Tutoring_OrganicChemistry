@@ -4,7 +4,7 @@ Welcome to the Organic Chemistry Tutoring Service! This project aims to provide 
 
 ## Overview
 
-This project utilizes React.js to create a dynamic web application for tutoring services. The application includes various components such as Navbar, Hero section, Statistics display, Business information, Billing details, Testimonials section, Call to Action (CTA), and Footer.
+This project utilizes React.js to create a dynamic web application for tutoring services. The application includes various components such as Navbar, Hero section, Statistics display, Business information, License details, Testimonials section, Call to Action (CTA), and Footer.
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ To get started with the project, follow these steps:
 
 The project follows a modular structure with components organized into directories. Here's an overview of the project structure:
 
-- **components:** Contains React components for different sections of the application, such as Navbar, Hero, Stats, Business, Billing, Testimonials, CTA, and Footer.
+- **components:** Contains React components for different sections of the application, such as Navbar, Hero, Stats, Business, License, Testimonials, CTA, and Footer.
 - **style:** Includes stylesheets for styling the components using Tailwind CSS.
 - **App.js:** Main entry point of the application, where components are imported and rendered within the layout.
 
@@ -44,7 +44,7 @@ The project follows a modular structure with components organized into directori
 - **Hero section:** Highlights the key features and benefits of the tutoring service.
 - **Statistics display:** Presents relevant statistics and data about the tutoring service.
 - **Business information:** Displays details about the tutoring service's business model and offerings.
-- **Billing details:** Provides information about billing and invoicing options.
+- **License details:** Provides information about License and invoicing options.
 - **Testimonials section:** Showcases feedback and testimonials from satisfied students.
 - **Call to Action (CTA):** Encourages users to take action, such as signing up for tutoring sessions.
 - **Footer:** Includes contact information and links to social media platforms.
