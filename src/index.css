@@ -161,9 +161,18 @@ width: 90%;
 }
 
 .chemistry_img{
-  width: 30rem;
-  height: 40rem;
-  border-radius: 2%; /* A large value to mimic "rounded" */
+  width: 20rem;
+  height: 31rem;
+  border-radius: 2%; 
+  position: relative;
+  z-index: 5;
+}
+
+.lab_img{
+  height: 36rem;
+  width: 23rem;
+  padding: 3rem;
+  border-radius: 2%;
   position: relative;
   z-index: 5;
 }
