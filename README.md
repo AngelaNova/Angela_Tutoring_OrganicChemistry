@@ -83,7 +83,8 @@ The project follows a modular structure with components organized into directori
 
   ## Website View : 
 
-![image](https://github.com/AngelaNova/Angela_Tutoring_OrganicChemistry/assets/160551855/c9df3246-2f84-4963-b9e0-185fd5d5a02b)
+![image](https://github.com/AngelaNova/Angela_Tutoring_OrganicChemistry/assets/160551855/aaf273c6-638a-4ca7-b6ae-082cad062f88)
+
 
 
   
