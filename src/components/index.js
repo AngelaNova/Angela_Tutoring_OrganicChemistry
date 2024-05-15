@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
+import License from "./License";
 import Business from "./Business";
 import CTA from "./CTA";
 import Stats from "./Stats";
@@ -9,7 +9,7 @@ import Hero from "./Hero";
 
 export {
   Navbar,
-  Billing,
+  License,
   Business,
   CTA,
   Stats,
