@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
-  <div className={`flex flex-row p-6 rounded-[20px] max-w-[60%]  ${index !== features.length - 1 ? "mb-6" : "mb-0"} `}>
+  <div className={`flex flex-row p-6 rounded-[20px] bmdandsm:max-w-[80%]  ss:max-w-[70%]${index !== features.length - 1 ? "mb-6" : "mb-0"} `}>
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimGreen  `}>
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
@@ -33,7 +33,7 @@ const Business = () =>  (
       <Button styles={`mt-10`} />
     </div>
 
-    <div className={`${layout.sectionImg} flex-col flex-wrap `}>
+    <div className={`${layout.sectionImg} flex-col flex-wrap bmdandsm:mt-[-22rem] bmdandsm:ml-[28rem] `}>
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
