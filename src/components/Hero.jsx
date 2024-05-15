@@ -26,7 +26,7 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 md:my-10 p-5 relative md:mt-0 pr:0`}>
+      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 md:my-10 p-5 relative bmdandsm:mt-[-400px] bmdandsm:mr-[-600px]`}>
         <img src={chemistry} alt="chemistry" className="chemistry_img" />
 
         {/* gradient start */}
