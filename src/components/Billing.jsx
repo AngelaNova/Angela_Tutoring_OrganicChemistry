@@ -4,7 +4,7 @@ import styles, { layout } from "../style";
 const Billing = () => (
   <section id="License" className={`${layout.sectionReverse} mt-[7rem]`}>
     <div className={layout.sectionImgReverse}>
-      <img src={lab} alt="billing" className="bmdandsm:w-[40%] bmdandsm:h-[40%] w-[70%] h-[70%]relative z-[5] rounded bmdandsm:mt-[-28rem] bmdandsm:mr-[-40rem]" />
+      <img src={lab} alt="lab" className="lab_img bmdandsm:mt-[-28rem] bmdandsm:mr-[-40rem]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -13,7 +13,7 @@ const Billing = () => (
     </div>
 
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
+      <h2 className={`${styles.heading2} z-[6]`}>
       Manage your Chemistry <br className="sm:block hidden" /> Learning & Progress
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
