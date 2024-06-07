@@ -2,7 +2,14 @@ import React, {useRef} from 'react';
 
 
 const User = () => {
-  const [username]=useRef("");
+  const username = useRef(null);
+  const password = useRef(null);
+
+
+  const login = (givenUsername, givenPassword) => {
+    return
+
+  }
 
   return (
     <>
@@ -10,9 +17,19 @@ const User = () => {
 
       <p>Please login</p>
 
-      <input ref={username}/>
-      <button>Submit</button>
+      <p>Input Login: </p>
+      <input ref={username} type="text" required/>
+      <p>Input Password: </p>
+      <input ref={password} type="text" required/>
+
+      <button onClick={() => login(username.current.value, password.current.value)}>Submit</button>
       
+      
+     
+      {//<button onClick={() => calculateYearlyIncome(yearlyIncomesInput.current.value)}>Get total Yearly Incomes</button>
+      }
+
+
     </>
   )
 }
