@@ -7,7 +7,7 @@ const User = () => {
 
 
   const login = (givenUsername, givenPassword) => {
-    return
+    return true
 
   }
 
