@@ -1,11 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
-import incomeReducer from './reducers/incomesReducer';
-import expenseReducer from './reducers/expensesReducer';
+import tutorReducer from './reducers/tutorsReducer';
+import studentReducer from './reducers/studentsReducer';
 
 const store = configureStore({
   reducer: {
-    expenses: expenseReducer,
-    incomes: incomeReducer,
+    students: studentReducer,
+    tutors: tutorReducer,
   },
 });
 
