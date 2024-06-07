@@ -5,7 +5,7 @@ const initialState = {
   filteredStudents: [],
 };
 
-const studentsReducer = (state = initialState, action) => {
+const studentReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_STUDENT:
       return {
@@ -35,5 +35,5 @@ const studentsReducer = (state = initialState, action) => {
   }
 };
 
-export default studentsReducer;
+export default studentReducer;
 

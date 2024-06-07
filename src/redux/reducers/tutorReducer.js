@@ -5,7 +5,7 @@ const initialState = {
   filteredTutors: [],
 };
 
-const tutorsReducer = (state = initialState, action) => {
+const tutorReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_TUTOR:
       return {
@@ -35,5 +35,5 @@ const tutorsReducer = (state = initialState, action) => {
   }
 };
 
-export default tutorsReducer;
+export default tutorReducer;
 
