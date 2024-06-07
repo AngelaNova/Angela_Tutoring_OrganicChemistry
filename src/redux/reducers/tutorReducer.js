@@ -1,4 +1,4 @@
-import { ADD_TUTOR, EDIT_TUTOR, DELETE_TUTOR, FILTER_TUTORS } from '../actions/tutorsActions';
+import { ADD_TUTOR, EDIT_TUTOR, DELETE_TUTOR, FILTER_TUTORS } from '../actions/tutorActions';
 
 const initialState = {
   allTutors: [{"name": "Angela", "lastName": "Novakovic", "username":"Angela","password":"unknown", "subject":"organic"},{"name": "Angela", "lastName": "Novakovic", "username":"Angela2","password":"unknown", "subject": "physical"}],

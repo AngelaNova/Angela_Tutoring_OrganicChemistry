@@ -1,4 +1,4 @@
-import { ADD_STUDENT, EDIT_STUDENT, DELETE_STUDENT, FILTER_STUDENTS } from '../actions/studentsActions';
+import { ADD_STUDENT, EDIT_STUDENT, DELETE_STUDENT, FILTER_STUDENTS } from '../actions/studentActions';
 
 const initialState = {
   allStudents: [{"name": "studentName", "lastName": "StudentLastName", "username":"Student01","password":"unknown", "subject":"organic"},{"name": "studentName", "lastName": "StudentLastName", "username":"Student02","password":"unknown", "subject":"all"}],
