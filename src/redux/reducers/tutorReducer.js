@@ -1,7 +1,7 @@
 import { ADD_TUTOR, EDIT_TUTOR, DELETE_TUTOR, FILTER_TUTORS } from '../actions/tutorsActions';
 
 const initialState = {
-  allTutors: [{"id": 0, "amount": 5, "date": "2024-05-27", "category":"food","description":"coffee"},{"id": 1, "amount": 4, "date": "2024-05-29", "category":"food","description":"donut"}],
+  allTutors: [{"name": "Angela", "lastName": "Novakovic", "username":"Angela","password":"unknown", "subject":"organic"},{"name": "Angela", "lastName": "Novakovic", "username":"Angela2","password":"unknown", "subject": "physical"}],
   filteredTutors: [],
 };
 
@@ -28,7 +28,7 @@ const tutorsReducer = (state = initialState, action) => {
     case FILTER_TUTORS:
       return {
         ...state,
-        filteredTutors: state.allTutors.filter((tutor) => tutor.category === action.payload),
+        filteredTutors: state.allTutors.filter((tutor) => tutor.subject === action.payload),
       };
     default:
       return state;

@@ -1,24 +1,24 @@
-export const ADD_EXPENSE = 'ADD_EXPENSE';
-export const EDIT_EXPENSE = 'EDIT_EXPENSE';
-export const DELETE_EXPENSE = 'DELETE_EXPENSE';
-export const FILTER_EXPENSES = 'FILTER_EXPENSES';
+export const ADD_STUDENT = 'ADD_STUDENT';
+export const EDIT_STUDENT = 'EDIT_STUDENT';
+export const DELETE_STUDENT = 'DELETE_STUDENT';
+export const FILTER_STUDENTS = 'FILTER_STUDENTS';
 
-export const addExpense = (expense) => ({
-  type: ADD_EXPENSE,
-  payload: expense,
+export const addStudent = (student) => ({
+  type: ADD_STUDENT,
+  payload: student,
 });
 
-export const editExpense = (id, updatedExpense) => ({
-  type: EDIT_EXPENSE,
-  payload: { id, updatedExpense },
+export const editStudent = (id, updatedStudent) => ({
+  type: EDIT_STUDENT,
+  payload: { id, updatedStudent },
 });
 
-export const deleteExpense = (id) => ({
-  type: DELETE_EXPENSE,
+export const deleteStudent = (id) => ({
+  type: DELETE_STUDENT,
   payload: id,
 });
 
-export const filterExpenses = (category) => ({
-  type: FILTER_EXPENSES,
-  payload: category,
+export const filterStudents = (subject) => ({
+  type: FILTER_STUDENTS,
+  payload: subject,
 });

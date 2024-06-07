@@ -1,24 +1,24 @@
-export const ADD_INCOME = 'ADD_INCOME';
-export const EDIT_INCOME = 'EDIT_INCOME';
-export const DELETE_INCOME = 'DELETE_INCOME';
-export const FILTER_INCOMES = 'FILTER_INCOMES';
+export const ADD_TUTOR = 'ADD_TUTOR';
+export const EDIT_TUTOR = 'EDIT_TUTOR';
+export const DELETE_TUTOR = 'DELETE_TUTOR';
+export const FILTER_TUTORS = 'FILTER_TUTORS';
 
-export const addIncome = (income) => ({
-  type: ADD_INCOME,
-  payload: income,
+export const addTutor = (tutor) => ({
+  type: ADD_TUTOR,
+  payload: tutor,
 });
 
-export const editIncome = (id, updatedIncome) => ({
-  type: EDIT_INCOME,
-  payload: { id, updatedIncome },
+export const editTutor = (id, updatedTutor) => ({
+  type: EDIT_TUTOR,
+  payload: { id, updatedTutor },
 });
 
-export const deleteIncome = (id) => ({
-  type: DELETE_INCOME,
+export const deleteTutor = (id) => ({
+  type: DELETE_TUTOR,
   payload: id,
 });
 
-export const filterIncomes = (category) => ({
-  type: FILTER_INCOMES,
-  payload: category,
+export const filterTutors = (subject) => ({
+  type: FILTER_TUTORS,
+  payload: subject,
 });
