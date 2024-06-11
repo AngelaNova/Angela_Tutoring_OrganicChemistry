@@ -2,31 +2,13 @@ import { useState } from "react";
 
 export default function Form() { 
 	// States for registration 
-	const [name, setName] = useState(""); 
-	const [email, setEmail] = useState(""); 
-	const [password, setPassword] = useState(""); 
+	const name = useRef(null); 
+	const email = useRef(null); 
+	const password = useRef(null);
 
 	// States for checking the errors 
 	const [submitted, setSubmitted] = useState(false); 
 	const [error, setError] = useState(false); 
-
-	// Handling the name change 
-	const handleName = (e) => { 
-		setName(e.target.value); 
-		setSubmitted(false); 
-	}; 
-
-	// Handling the email change 
-	const handleEmail = (e) => { 
-		setEmail(e.target.value); 
-		setSubmitted(false); 
-	}; 
-
-	// Handling the password change 
-	const handlePassword = (e) => { 
-		setPassword(e.target.value); 
-		setSubmitted(false); 
-	}; 
 
 	// Handling the form submission 
 	const handleSubmit = (e) => { 
@@ -67,6 +49,25 @@ export default function Form() {
 		); 
 	}; 
 
+
+	// Handling the name change 
+	const handleName = (e) => { 
+		setName(e.target.value); 
+		setSubmitted(false); 
+	}; 
+
+	// Handling the email change 
+	const handleEmail = (e) => { 
+		setEmail(e.target.value); 
+		setSubmitted(false); 
+	}; 
+
+	// Handling the password change 
+	const handlePassword = (e) => { 
+		setPassword(e.target.value); 
+		setSubmitted(false); 
+	}; 
+
 	return ( 
 		<div className="form"> 
 			<div> 
@@ -83,25 +84,25 @@ export default function Form() {
 				{/* Labels and inputs for form data */} 
 				<label className="label">Name</label> 
 				<input 
-					onChange={handleName} 
+					ref={name} 
+					required
 					className="input"
-					value={name} 
 					type="text"
 				/> 
 
 				<label className="label">Email</label> 
 				<input 
-					onChange={handleEmail} 
+					ref={email} 
+					required
 					className="input"
-					value={email} 
 					type="email"
 				/> 
 
 				<label className="label">Password</label> 
-				<input 
-					onChange={handlePassword} 
+				<input
+					ref={password} 
+					required
 					className="input"
-					value={password} 
 					type="password"
 				/> 
 
