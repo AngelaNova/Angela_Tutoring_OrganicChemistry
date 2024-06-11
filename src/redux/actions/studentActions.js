@@ -1,7 +1,7 @@
 export const ADD_STUDENT = 'ADD_STUDENT';
 export const EDIT_STUDENT = 'EDIT_STUDENT';
 export const DELETE_STUDENT = 'DELETE_STUDENT';
-export const FILTER_STUDENTS = 'FILTER_STUDENTS';
+export const ID_FOR_STUDENT = 'ID_FOR_STUDENT';
 
 export const addStudent = (student) => ({
   type: ADD_STUDENT,
@@ -18,7 +18,7 @@ export const deleteStudent = (id) => ({
   payload: id,
 });
 
-export const filterStudents = (subject) => ({
-  type: FILTER_STUDENTS,
-  payload: subject,
+export const idForStudent = (student) => ({
+  type: ID_FOR_STUDENT,
+  payload: student,
 });
