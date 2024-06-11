@@ -15,14 +15,17 @@ export default function Form() {
 	// Handling the form submission 
 	const handleSubmit = (e) => { 
 		e.preventDefault(); 
-		if (name === "" || email === "" || password === "") { 
+		if (firstName === "" || lastName === "" || email === "" || password === "") { 
 			setError(true); 
 		} else { 
 			setSubmitted(true); 
 			setError(false); 
 
 			const newUser ={
-				
+				"firstName" : firstName,
+				"lastName" : lastName,
+				"email" : email,
+				"password" : password,
 			}
 		} 
 	}; 
@@ -36,7 +39,7 @@ export default function Form() {
 					display: submitted ? "" : "none", 
 				}} 
 			> 
-				<h1>User {name} successfully registered!!</h1> 
+				<h1>User {firstName} successfully registered!!</h1> 
 			</div> 
 		); 
 	}; 
@@ -56,23 +59,6 @@ export default function Form() {
 	}; 
 
 
-	// Handling the name change 
-	const handleName = (e) => { 
-		setName(e.target.value); 
-		setSubmitted(false); 
-	}; 
-
-	// Handling the email change 
-	const handleEmail = (e) => { 
-		setEmail(e.target.value); 
-		setSubmitted(false); 
-	}; 
-
-	// Handling the password change 
-	const handlePassword = (e) => { 
-		setPassword(e.target.value); 
-		setSubmitted(false); 
-	}; 
 
 	return ( 
 		<div className="form"> 
