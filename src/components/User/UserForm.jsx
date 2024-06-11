@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Form() { 
 	// States for registration 
 	const [user,setUser] = useState({});
-	const name = useRef(null); 
+	const firstName = useRef(null); 
 	const email = useRef(null); 
 	const password = useRef(null);
 
@@ -87,9 +87,9 @@ export default function Form() {
 
 			<form> 
 				{/* Labels and inputs for form data */} 
-				<label className="label">Name</label> 
+				<label className="label">First Name</label> 
 				<input 
-					ref={name} 
+					ref={firstName} 
 					required
 					className="input"
 					type="text"
