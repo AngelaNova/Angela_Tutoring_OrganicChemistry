@@ -4,6 +4,7 @@ export default function Form() {
 	// States for registration 
 	const [user,setUser] = useState({});
 	const firstName = useRef(null); 
+	const lastName = useRef(null); 
 	const email = useRef(null); 
 	const password = useRef(null);
 
@@ -90,6 +91,14 @@ export default function Form() {
 				<label className="label">First Name</label> 
 				<input 
 					ref={firstName} 
+					required
+					className="input"
+					type="text"
+				/> 
+
+				<label className="label">Last Name</label> 
+				<input 
+					ref={lastName} 
 					required
 					className="input"
 					type="text"
