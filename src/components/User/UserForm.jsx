@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export default function Form() { 
 	// States for registration 
+	const [user,setUser] = useState({});
 	const name = useRef(null); 
 	const email = useRef(null); 
 	const password = useRef(null);
@@ -18,6 +19,10 @@ export default function Form() {
 		} else { 
 			setSubmitted(true); 
 			setError(false); 
+
+			const newUser ={
+				
+			}
 		} 
 	}; 
 
@@ -110,6 +115,12 @@ export default function Form() {
 					Submit 
 				</button> 
 			</form> 
+
+			<div>
+				<h2>Change your username</h2>
+
+				
+			</div>
 		</div> 
 	); 
 } 
